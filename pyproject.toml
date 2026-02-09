@@ -1,0 +1,80 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-research-agent"
+version = "0.1.0"
+description = "Autonomous AI research agent using LangChain and GPT-4"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Your Name", email = "your.email@example.com"}
+]
+keywords = ["ai", "langchain", "agent", "research", "gpt-4"]
+
+dependencies = [
+    "langchain>=1.2.9",
+    "langchain-openai>=1.1.7",
+    "langchain-community>=0.4.1",
+    "langchain-classic>=1.0.1",
+    "langgraph>=1.0.8",
+    "openai>=2.17.0",
+    "python-dotenv>=1.2.1",
+    "pydantic>=2.12.5",
+]
+
+[project.optional-dependencies]
+search = [
+    "duckduckgo-search>=6.3.5",
+    "wikipedia>=1.4.0",
+]
+dev = [
+    "pytest>=8.3.4",
+    "pytest-cov>=6.0.0",
+    "pytest-asyncio>=0.24.0",
+]
+
+[tool.pytest.ini_options]
+# Pytest configuration
+minversion = "8.0"
+testpaths = ["."]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+
+# Register custom markers
+markers = [
+    "integration: marks tests as integration tests (deselect with '-m \"not integration\"')",
+    "slow: marks tests as slow running (deselect with '-m \"not slow\"')",
+]
+
+# Default options
+addopts = [
+    "-v",
+    "--strict-markers",
+    "--tb=short",
+    "-ra",
+]
+
+[tool.coverage.run]
+# Coverage configuration
+omit = [
+    "*/tests/*",
+    "*/test_*.py",
+    "*/__pycache__/*",
+    "*/venv/*",
+    "*/ai_venv/*",
+]
+
+[tool.coverage.report]
+# Coverage reporting
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+    "if TYPE_CHECKING:",
+]
