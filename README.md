@@ -347,9 +347,9 @@ MIT License - feel free to use this code for learning and portfolio purposes.
 ## 👤 Author
 
 **Bobby Nitto**
-- Portfolio: [Your Portfolio URL]
-- LinkedIn: [Your LinkedIn]
-- GitHub: [Your GitHub]
+- Portfolio: Coming soon
+- LinkedIn: www.linkedin.com/in/bobby-nitto
+- GitHub: https://github.com/theen04
 
 ## 🙏 Acknowledgments
 
