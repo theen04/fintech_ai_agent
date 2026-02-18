@@ -8,7 +8,6 @@ A production-ready AI research agent that autonomously gathers, synthesizes, and
 ![LangGraph](https://img.shields.io/badge/LangGraph-1.0.8-red?logo=langchain&logoColor=white)
 ![OpenAI GPT-4](https://img.shields.io/badge/OpenAI-GPT--4-purple?logo=openai&logoColor=white)
 ![Pydantic](https://img.shields.io/badge/Pydantic-2.12.5-lightgrey?logo=pydantic&logoColor=blue)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Last Commit](https://img.shields.io/github/last-commit/theen04/fintech_ai_agent.svg)
 
 ---
