@@ -2,6 +2,14 @@
 
 A production-ready AI research agent that autonomously gathers, synthesizes, and structures information using LangChain and OpenAI's GPT-4. This project demonstrates advanced understanding of agentic AI workflows, tool integration, and structured output generation, with a focus on **FinTech and emerging AI applications in startups**.
 
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Python Version](https://img.shields.io/badge/Python-3.11-blue)
+![LangChain](https://img.shields.io/badge/LangChain-1.2.9-orange?logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1.0.8-red?logo=langchain&logoColor=white)
+![OpenAI GPT-4](https://img.shields.io/badge/OpenAI-GPT--4-purple?logo=openai&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-2.12.5-lightgrey?logo=pydantic&logoColor=blue)
+![Last Commit](https://img.shields.io/github/last-commit/theen04/fintech_ai_agent.svg)
+
 ---
 
 ## 🎯 Project Overview
@@ -338,7 +346,7 @@ class ResearchResponse(BaseModel):
 
 ## 🤝 Contributing
 
-This is a portfolio project, but suggestions are welcome! Please open an issue to discuss proposed changes.
+This is a portfolio project, and suggestions are welcome! Please open an issue to discuss proposed changes.
 
 ## 📝 License
 
